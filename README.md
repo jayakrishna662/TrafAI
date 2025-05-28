@@ -7,8 +7,8 @@ A comprehensive traffic violation detection system using computer vision and dee
 - Triple riding detection
 - License plate recognition
 - Web interface (Django)
-- Real-time processing
 - Violation logging
+- Repeat offender Tracking
 
 
 1. **Clone & Setup**
