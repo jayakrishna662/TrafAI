@@ -59,3 +59,24 @@ TrafAI/
 - Git LFS (for model files)
 - See requirements.txt for Python packages
 
+
+## 📊 Outputs and Results
+
+### Example Detections
+
+1. **Helmet Violation Detection**
+   - Detects riders without helmets
+   - Identifies multiple riders on a two-wheeler
+   
+
+2. **Triple Riding Detection**
+   - Identifies three or more people on a two-wheeler
+   ![image](https://github.com/user-attachments/assets/76e7fe19-3b16-4962-89fe-bd1cbf5706dd)
+
+
+3. **License Plate Recognition**
+   - Extracts license plate information
+   - Processes various plate formats
+   
+   ![License Plate Detection](media/5698d7b74585443db448c4eafc554b2f_dualride2.jpg)
+
