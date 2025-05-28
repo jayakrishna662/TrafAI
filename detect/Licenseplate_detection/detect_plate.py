@@ -1,9 +1,9 @@
 from plate_reader import extract_plate_text_from_api
 
-API_KEY = "56531315402d98cb449fcf05f999e057b052696b"
+API_KEY = " " #paste your api key here
 
 if __name__ == "__main__":
-    image_path = r"C:\Users\Jaykr\Desktop\cursor_project\input_images\nohelmet1.jpg"
+    image_path = " " #give your image path
 
     plate_text = extract_plate_text_from_api(image_path, API_KEY)
 
