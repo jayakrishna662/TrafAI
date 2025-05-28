@@ -60,6 +60,11 @@ TrafAI/
 - See requirements.txt for Python packages
 
 
+## TrafAI FlowChart 
+![TrafAI_Flowchart](https://github.com/user-attachments/assets/5480f625-cf8c-472a-8060-221152ac5bb0)
+
+
+
 ## 📊 Outputs and Results
 
 ### Example Detections
