@@ -292,7 +292,7 @@ class TripleRiderDetector:
 
 if __name__ == "__main__":
     # Set image path directly here
-    image_path = r"C:\Users\Jaykr\Desktop\cursor_project\input_images\tp4.jpg"  # Change this to your image path
+    image_path = " "  # Change this to your image path
 
     detector = TripleRiderDetector()
     result = detector.has_triple_riding_violation_from_path(image_path)
