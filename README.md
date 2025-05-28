@@ -24,8 +24,15 @@ A comprehensive traffic violation detection system using computer vision and dee
    # Install requirements
    pip install -r requirements.txt
    ```
-
-2. **Run Web App**
+2. **Set Up Database**
+   ```bash
+   # Create and apply migrations
+   python manage.py makemigrations
+   python manage.py migrate
+   
+   # Create superuser (optional, for admin access)
+   python manage.py createsuperuser
+3. **Run Web App**
    ```bash
    python manage.py runserver
    ```
