@@ -1,6 +1,10 @@
 # 🚦 Traffic Violation Detection System
 
 A comprehensive traffic violation detection system using computer vision and deep learning.
+The main objective of this project is to detect the traffic violations like helmet violation,tripple riding violation by two-wheeler vehicles and if any vehicle is found to be violated then the respective vehicle's plate number is extracted using a License plate detection module where we used an open source ** Plate Recognizer API ** and then update the logs and check whether the violated vehicle falls under repeat offender or not.
+So,"Repeat offender detection is essential for identifying vehicles or individuals who consistently violate traffic rules, enabling authorities to prioritize enforcement efforts, issue escalated penalties, and enhance road safety by targeting the most high-risk drivers."
+
+
 
 ## ✨ Features
 - Helmet violation detection
