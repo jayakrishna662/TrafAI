@@ -47,5 +47,5 @@ def detect_vehicles(image_path):
 
 # --- Test with your image ---
 if __name__ == "__main__":
-    test_image = r"C:\Users\Jaykr\Desktop\cursor_project\Riding-a-bike-without-a-helmet-in-Hyderabad_-Well-the-IIT-and-the-city-police-are-working-on-a-system-to-fine-you..jpg"
+    test_image = " " #give path of your test image here
     detect_vehicles(test_image)
