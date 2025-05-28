@@ -67,6 +67,8 @@ TrafAI/
 1. **Helmet Violation Detection**
    - Detects riders without helmets
    - Identifies multiple riders on a two-wheeler
+     ![image](https://github.com/user-attachments/assets/3a713867-4d6f-4d7f-bfb0-bc70ee96c65e)
+
    
 
 2. **Triple Riding Detection**
@@ -77,6 +79,6 @@ TrafAI/
 3. **License Plate Recognition**
    - Extracts license plate information
    - Processes various plate formats
-   
-   ![License Plate Detection](media/5698d7b74585443db448c4eafc554b2f_dualride2.jpg)
+   ![detected_plate](https://github.com/user-attachments/assets/b44a9933-5da7-44f1-9a3a-f2927904cd91)
+
 
