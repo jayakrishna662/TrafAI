@@ -1,0 +1,36 @@
+{% extends 'violations/base.html' %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card p-4">
+      <h3 class="mb-4"><i class="fas fa-search"></i> Violation Detection</h3>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-danger" type="submit"><i class="fas fa-bolt"></i> Analyze Image</button>
+      </form>
+      {% if uploaded_image_url %}
+      <div class="mt-4 text-center">
+        <h5>Selected Image</h5>
+        <img src="{{ uploaded_image_url }}" alt="Selected Image" class="img-fluid rounded shadow">
+      </div>
+      {% endif %}
+      <hr>
+      <div>
+        <h5>Detection Results</h5>
+        <div class="bg-light p-3 rounded">
+          {% if results %}
+            <ul>
+              {% for line in results %}
+                <li>{{ line }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <span class="text-muted">No results yet.</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
