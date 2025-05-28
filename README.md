@@ -31,14 +31,6 @@ A comprehensive traffic violation detection system using computer vision and dee
    ```
    Visit: http://127.0.0.1:8000/
 
-3. **CLI Usage**
-   ```bash
-   # Process image
-   python violation_detector.py --image input.jpg
-   
-   # Process video
-   python violation_detector.py --video input.mp4
-   ```
 
 ## 📁 Project Structure
 ```
