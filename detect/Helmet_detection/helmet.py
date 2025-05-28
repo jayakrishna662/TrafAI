@@ -80,8 +80,8 @@ def helmet_violation_in_image(model, image_path):
 
 def main():
     # Use absolute path to find the model
-    model_path = r"C:\Users\Jaykr\Desktop\cursor_project\detect\Helmet_detection\hemletYoloV8_100epochs.pt"  # Use helmetBest.pt which is available
-    image_path = r"C:\Users\Jaykr\Desktop\cursor_project\input_images\tp3.jpg"  # Change as needed
+    model_path = # Use helmetBest.pt which is available
+    image_path = #give your image path
 
     if not os.path.exists(model_path):
         print(f"[ERROR] Model not found at: {model_path}")
