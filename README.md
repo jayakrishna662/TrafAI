@@ -81,4 +81,16 @@ TrafAI/
    - Processes various plate formats
    ![detected_plate](https://github.com/user-attachments/assets/b44a9933-5da7-44f1-9a3a-f2927904cd91)
 
+4. **Repeat offender Tracking**
+
+
+The system includes a sophisticated repeat offender tracking system that:
+
+- **Automatically Flags Repeat Offenders**: Vehicles with multiple violations are automatically flagged in the system
+- **Violation History**: Maintains a complete history of all violations per vehicle
+- **Prioritized Monitoring**: Helps law enforcement focus on habitual offenders
+- **Custom Thresholds**: Configurable violation thresholds for flagging repeat offenders
+- **Detailed Reporting**: Generates comprehensive reports on repeat offenders
+![Repeat offender](https://github.com/user-attachments/assets/d869bd03-5f23-4f02-85de-ecaf2b551abd)
+
 
