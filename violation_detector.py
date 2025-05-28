@@ -38,7 +38,7 @@ class ViolationDetector:
         self.triple_rider_detector = TripleRiderDetector()
 
         # API Key for license plate recognition
-        self.plate_api_key = "56531315402d98cb449fcf05f999e057b052696b"
+        self.plate_api_key = " " #paste your api key here
 
         print("[INFO] Violation detection system initialized.")
 
